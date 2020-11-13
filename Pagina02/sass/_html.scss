@@ -1,0 +1,79 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: $letra1;
+    background-color: $colorOcho;
+   
+}
+
+
+*{
+
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+   
+   
+}
+
+
+.container{
+
+    max-width: 1350px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-title{
+
+    flex: $porcentaje1;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+}
+
+ .section-title h1{
+
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: $colorTitulo;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+ .section-title h1::before{
+
+   content: ' ';
+   left: 0;
+   right: 30%;
+   height: 2px;
+   background-color: $colorDos;
+   bottom: 0px;
+   position: absolute;
+}
+
+.text-center{
+
+    text-align: center;
+}
+

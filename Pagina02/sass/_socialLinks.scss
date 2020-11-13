@@ -1,0 +1,43 @@
+.social-links{
+
+    padding-top: 18px;
+    
+}
+
+ .social-links a{
+
+   height: 37px;
+   width: 37px;
+   background-color: $colorTres;
+   border-radius: 3px;
+   display: inline-block;
+   border: 1px solid $colorTres;
+   border-radius: 30%;
+   line-height: 35px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   margin: 0 3px;
+   -webkit-transition: all .5s ease;
+   transition: all .5s ease;
+}
+
+.social-links a:hover{
+
+    background-color: transparent;
+
+}
+
+
+ .social-links a i{
+
+     font-size: 15px;
+    -webkit-transition: all .5s ease;
+     transition: all .5s ease;
+
+}
+
+.social-links a:hover i{
+
+   color: $colorUno;
+
+}

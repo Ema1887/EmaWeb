@@ -1,0 +1,104 @@
+/* --------- Start Portfolio ---------*/
+
+.portfolio{
+
+    background-color: $colorCinco; 
+    width: 100%;
+    padding: 80px 0px;
+    float: left;
+ 
+  
+   
+}
+
+.portfolio .section-title h1::before{
+
+    left: 30%;
+}
+
+.portfolio .portfolio-content{
+
+    float: left;
+    width: 100%;
+}
+
+.portfolio .portfolio-content .card{
+
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    
+}
+
+
+.portfolio .portfolio-content .card .box{
+  
+    background-color: #f9f9f9;
+    padding: 15px;
+    position: relative;
+   
+   
+}
+
+.portfolio .portfolio-content .card .box::before{
+
+    content: ' ';
+    height: 3px;
+    background-color: $colorDos;
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: all .5s ease;
+    
+
+}
+
+.portfolio .portfolio-content .card .box:hover::before{
+
+    width: 100%;
+    
+}
+
+.portfolio .portfolio-content .card .box:hover{
+
+    cursor: pointer;
+}
+
+.portfolio .portfolio-content .card .box h3{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 0px 10px;
+    color: $colorCuatro;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+.portfolio .portfolio-content .card .box a:hover{
+
+    border-color:  $colorTitulo;
+    background-color: $colorTitulo;
+    color: $colorSiete;
+    font-weight: 500;
+    
+
+}
+
+
+.portfolio .portfolio-content .card .box img{
+
+     width: 100%;
+     display: block;
+     margin-top: 15px;
+    
+}
+
+
+
+/* --------- End Portfolio ---------*/

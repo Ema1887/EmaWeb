@@ -1,0 +1,113 @@
+.center{
+
+  width: 310px;
+  margin-left: 29em;
+  margin-top: -3em;
+  text-align: left;
+  
+}
+
+.center ul{
+
+list-style: none;
+position: relative;
+display: inline-block;
+
+}
+
+.center ul a{
+
+display: inline-block;
+height: 50px;
+width: 50px;
+background: $colorCinco;
+line-height: 55px;
+margin: 0 -16px;
+cursor: pointer;
+border-radius: 0px;
+transition: background-color .5s ease-out,
+            border-radius .5s .25s ease-out,
+            margin .5s .25s ease-out;
+
+
+}
+
+.center ul a i{
+
+  color: $colorNueve;
+  font-size: 22px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: opacity 1.7s;
+ 
+
+}
+
+.center ul:hover a i{
+
+opacity: 1;
+
+}
+
+
+
+
+.center ul a:hover{
+
+background: $colorCinco;
+
+
+
+}
+
+
+.center ul a i:hover{
+
+  color:#ffc107;
+}
+
+.center ul a:nth-child(1){
+
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.center ul a:nth-child(4){
+
+ border-bottom-right-radius: 25px;
+ border-top-right-radius: 25px;
+}
+
+
+.center ul:hover a{
+
+border-radius: 50px;
+margin: 0 3px;
+
+}
+
+.center ul .text{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $colorCinco;
+  color: $colorTitulo;
+  line-height: 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  pointer-events: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: opacity .5s .75s ease-out;
+  
+
+}
+
+.center ul:hover .text{
+
+  opacity: 0;
+  transition: opacity .5s .125s ease-out;
+  
+}

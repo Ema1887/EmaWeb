@@ -1,0 +1,189 @@
+.header{
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 0px 15px;
+    z-index: 99;
+    transition: all 0.5s ease;
+    
+   
+}
+
+
+.header .row{
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .brand-name a{
+
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: $colorOcho;
+    position: relative;
+    transition: all 0.5s ease;
+
+}
+
+.header .brand-name a:hover{
+
+  color: $colorDos;
+  transition: all 0.5s ease;
+
+}
+.header .navbar ul{
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .navbar ul li{
+
+    display: inline-block;
+    margin-left: 35px;
+    
+    
+}
+
+.header .navbar ul li a{
+
+   font-size: 18px;
+   text-decoration: none;
+   line-height: 70px;
+   display: block;
+   font-weight: 500;
+   color: $colorOcho;
+   position: relative;;
+   transition: all 0.5s ease;
+    
+  
+}
+
+
+
+
+header .navbar ul li a.active{
+
+   color: $colorDos;
+   font-size: 23px;
+   font-weight: 600;
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+
+}
+
+
+
+
+/* --------- Header Fixed ---------*/
+
+.header.fixed{
+
+    background-color: $colorOcho;
+    border-bottom: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    position: fixed;
+}
+
+
+.header.fixed .navbar ul li a{
+
+    color: $colorNueve;
+}
+
+
+.header.fixed .navbar ul li a.active{
+
+    color: $colorDos;
+    font-weight: 600;
+    font-size: 23px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+.header.fixed .brand-name a{
+
+    color: $colorNueve;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.header.fixed .brand-name a:hover{
+
+  color: $colorDos;
+
+}
+
+
+.header.fixed .nav-toggle{
+
+  border-color: $colorCuatro;
+}
+
+.header.fixed .nav-toggle span,
+.header.fixed .nav-toggle span:before,
+.header.fixed .nav-toggle span:after{
+
+     background-color: $colorCuatro;
+}
+
+/* --------- Header Toggle ---------*/
+
+.header .nav-toggle{
+
+    width: 40px;
+    height: 34px;
+    border: 1px solid $colorOcho;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.header .nav-toggle span{
+
+    height: 1px;
+    display: block;
+    width: 16px;
+    background-color: $colorOcho;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.header .nav-toggle span:before,
+.header .nav-toggle span:after{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    background-color: $colorOcho;
+    transition: all 0.5s ease;
+}
+
+
+.header .nav-toggle span:before{
+
+    transform: translateY(-6px);
+}
+
+.header .nav-toggle span:after{
+
+   transform: translateY(6px);
+}

@@ -1,0 +1,77 @@
+/*------------- Start Home ---------------*/
+
+.home .home-content .block .credito-texto{
+
+    color: $colorDos;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.home{
+
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-image: url(../img/marc.jpg);
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .full-screen{
+
+    min-height: 100vh;
+}
+
+.home .home-content{
+
+    flex: $porcentaje1;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home .home-content .block{
+
+    flex: 0 0 75%;
+    max-width: 75%;
+    height: auto;
+    padding-left: 35px;
+    margin-top: 25px;
+    border-left: 5px solid $colorSiete;
+    
+}
+
+.home .home-content .block h6{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    margin:0px;
+    padding: 5px;
+
+}
+
+.home .home-content .block h1{
+   
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Alegreya', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+/* ----------- End Home ------------*/

@@ -1,0 +1,114 @@
+/* -------- Start Service ---------*/
+
+.services{
+
+    background-color: $colorCinco;
+    padding: 100px 15px 70px;
+ 
+ 
+    
+ }
+ 
+ 
+ .services .section-title h1::before{
+ 
+     left: 30%;
+ }
+ 
+ 
+ .services .services-content{
+ 
+     flex: 0 0 100%;
+     max-width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ 
+ .services .services-content .box{
+ 
+     background-color: $colorSiete;
+     padding: 30px;
+     flex: 0 0 calc(33.33% - 20px);
+     max-width: calc(33.33% - 20px);
+     margin-bottom: 30px;
+     border: 1px solid $colorSiete;
+     text-align: center;
+     color: $colorCuatro;
+     position: relative;
+     height: 380px;
+     width: 100%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+     
+     
+ }
+ 
+ .services .services-content .box::before{
+ 
+     content: ' ';
+     height: 2px;
+     background-color: $colorDos;
+     position: absolute;
+     bottom: 0px;
+     width: 50px;
+     left: 0px;
+     right: 0px;
+     margin: 0 auto;
+     transition: all .5s ease;
+     cursor: pointer;
+ 
+ }
+ 
+ .services .services-content .box:hover::before{
+ 
+     width: 100%;
+    
+ 
+ }
+ 
+ .services .services-content .box:hover{cursor: pointer;}
+ 
+ .services .services-content .box .icon{
+ 
+     height: 60px;
+     width: 60px;
+     background-color: $colorUno;
+     margin: 12 auto 20px;
+     border-radius: 50%;
+     text-align: center;
+     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+     
+ 
+ }
+ 
+ .services .services-content .box .icon .fas{
+ 
+     font-size: 25px;
+     color: $colorSiete;
+     line-height: 60px;
+     
+ 
+ }
+ 
+ .services .services-content .box h5{
+ 
+   font-size: 23px;
+   font-weight: 600;
+   color: $colorCuatro;
+   text-align: center;
+   margin-top: 30px;
+ }
+ 
+ .services .services-content .box p{
+ 
+    text-align: center;
+    font-size: 19px;
+    color: $colorCuatro;
+    font-weight: 400;
+    margin: 10px 0px 10px;
+    
+ }
+ 
+ /* --------- End Service ----------*/
+ 

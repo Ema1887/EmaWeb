@@ -1,0 +1,156 @@
+/*------------ Start Header -------------*/
+
+header{
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #423940;
+    padding: 0px 15px;
+    z-index: 10;
+    
+   
+}
+
+header.sticky{
+
+    background-color: #f9f9f9;
+    border-bottom: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 11;
+    animation: fixHeader .5s ease;
+}
+
+@keyframes fixHeader{
+
+    0%{
+
+        transform: translateY(-100%);
+    }
+    100%{
+    transform: translateY(-0%);
+    }
+}
+
+header.sticky .brad-name a{
+   
+    color: $colorCuatro;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    
+}
+
+header.sticky .navbar ul li a{
+
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 72px;
+    display: block;
+    font-weight: 500;
+    color: $colorCuatro;
+    position: relative;
+   
+}
+
+header.sticky .navbar ul li a::before{
+
+    background-color: $colorDos;
+
+}
+
+
+header .row{
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brad-name a{
+
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #f9f9f9;
+    position: relative;
+   
+
+}
+
+
+header .navbar ul{
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+header .navbar ul li{
+
+    display: inline-block;
+    margin-left: 35px;
+    
+    
+}
+
+header .navbar ul li a{
+
+   font-size: 16px;
+   text-decoration: none;
+   line-height: 72px;
+   display: block;
+   font-weight: 500;
+   color: $colorOcho;
+   position: relative;
+  
+}
+
+header .navbar ul li a::before{
+
+    content: '';
+    height: 3px;
+    background-color: $colorDos;
+    width: 0%;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    transition: all .5s ease;
+
+}
+
+header .navbar ul li a:hover::before{
+
+    width: 100%;
+    left: 0px;
+
+}
+
+header .navbar ul li a.active::before{
+
+    width: 100%;
+    left: 0px;
+    
+
+}
+
+
+.menu_bar .fas{
+
+  font-size: 20px;
+  height: 27px;
+  width: 35px;
+  background-color: $colorSeis;
+  color: $colorTres;
+  border-radius: 3px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+
+}
+
+/* -------------- End Header --------------*/

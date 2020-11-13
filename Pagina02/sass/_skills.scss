@@ -1,0 +1,70 @@
+/* --------- Start Skills ---------*/
+
+.skills{
+
+    padding: 100px 10px;
+    background-color: #ffffff;
+   
+}
+
+.skills .skills-content{
+
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+
+.aling-items-center{
+
+    align-items: flex-end;;
+}
+
+
+
+.skills .skills-content .skill-box{
+
+    flex: $porcentaje1;
+    max-width: 100%;
+    margin-bottom: 15px; 
+}
+
+.skills .skills-content .skill-box h6{
+
+    font-size: 16px;
+    font-weight: 500;
+    color: $colorCuatro;
+    margin: 0 0 5px;
+    padding: 5px;
+}
+
+.skills .skills-content .skill-box .skill-bar{
+
+    height: 5px;
+    background-color: #f5f5f5;
+    position: relative;
+    
+
+}
+
+.skills .skills-content .skill-box .skill-bar .skill-bar-in{
+
+    background-color: $colorDos;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+
+}
+
+.skills .skills-content .skill-box .skill-bar .skill-bar-in span{
+
+    color: #838383;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: 6px;
+
+}

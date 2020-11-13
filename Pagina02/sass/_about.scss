@@ -1,0 +1,120 @@
+/* ----------- Start About ---------*/
+
+.about-me{
+
+    padding: 100px 15px;
+    background-color: $colorSiete;
+}
+
+
+
+.about-me .section-title .small{
+
+    display: block;
+    color: $colorCuatro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+.about-me .about-content .img{
+  
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+
+}
+
+.about-me .about-content .img img{
+
+    width: 70%;
+    margin-left: 2px;
+    display: block;
+    /*box-shadow: 0 0 10px 0 rgba(0,0,0,.5);*/
+    box-shadow: 0px 0px 20px #333;
+}
+
+
+.about-me .about-content .text{
+
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    padding-left: 10px;
+
+}
+
+.about-me .about-content .text h4{
+
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    color: $colorCuatro; 
+    letter-spacing: 1px;
+
+}
+
+.about-me .about-content .text h6{
+
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    color: $colorCuatro;
+    letter-spacing: 1px;
+
+
+}
+
+.about-me .about-content .text h6 span{
+
+    color: $colorDos;
+}
+
+.about-me .about-content .text p{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #423940;
+    margin: 0 0 20px;
+    
+}
+
+.about-me .about-content .text .info{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.about-me .about-content .text .info .list{
+
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+
+}
+
+.about-me .about-content .text .info .list label{
+
+    padding-right: 10px;
+    color: #212121;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.about-me .about-content .text .info .list p{
+
+    margin: 0px;
+    text-align: justify;
+    font-weight: 400;
+    color: #424242;
+
+}
